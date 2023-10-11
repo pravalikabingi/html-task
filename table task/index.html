@@ -1,0 +1,142 @@
+<html>
+    <head>
+     <style>
+        table,tr,th,td{
+            border:2px solid black;
+            border-collapse: collapse ;
+        }
+     </style>
+    </head>
+    <body>
+        <center><h1>Normal Padding</h1></center>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>job</th>
+                <th>Working Experince</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Software engineer</td>
+                <td>5 Years</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td>Senior Web Developer</td>
+                <td>2 year</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>Junior Tech Writer</td>
+                <td>6 months</td>
+            </tr>
+        </table>
+        <hr>
+        <center><h1>Border Spacing</h1></center>
+        <table style="border: 2px solid black; border-collapse: separate;">
+            <tr>
+                <th>Name</th>
+                <th>job</th>
+                <th>Working Experince</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Software engineer</td>
+                <td>5 Years</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td>Senior Web Developer</td>
+                <td>2 year</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>Junior Tech Writer</td>
+                <td>6 months</td>
+            </tr>
+
+        </table>
+        <hr>
+
+        <table style="border: 2px solid black; border-collapse: separate;">
+            <tr style="border: 2px solid black; border-collapse: collapse;"> 
+                <td colspan="4"><center>New employess records</center></td>
+                
+            </tr>
+            
+            <tr>
+                <th>Name</th>
+                <th colspan="2">jobs</th>
+                
+                <th>Working Experince</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Software enginner</td>
+                <td>Data Analyst</td>
+                <td rowspan="2">5 years</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td colspan="2">Senior web Developer</td>
+            
+            </tr>
+            <tr>
+                <td>jack</td>
+                <td>Junior Tech Writer</td>
+                <td>Blogger</td>
+                <td>6 months</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+              <th colspan="6"><center>Time Table</center></th>
+
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                
+                <td>math</td>
+                <td>science</td>
+                <td>math</td>
+                <td>science</td>
+                <td>arts</td>
+            </tr>
+            <tr>
+                
+                <td>math</td>
+                <td>science</td>
+                <td>math</td>
+                <td>science</td>
+                <td>arts</td> 
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+                
+                
+            </tr>
+            <tr>
+                
+                <td>math</td>
+                <td>science</td>
+                <td>math</td>
+                <th rowspan="2" colspan="2"><center>project</center></th>
+            <tr>
+                
+                <td>math</td>
+                <td>science</td>
+                <td>math</td>
+            </tr>
+        </table>
+      
+        
+    </body>
+</html>
